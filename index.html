@@ -13,26 +13,22 @@
     <title>PDF Viewer</title>
     </head>
     <body>
-          <div class="top-bar">
-          <button class="btn" id="prev-page">
-            <i class="fas fa-arrow-circle-left"></i> Prev Page
-          </button>
-          <button class="btn" id="next-page">
-            Next Page <i class="fas fa-arrow-circle-right"></i>
-          </button>
-      <span class="page-info">
-        Page <span id="page-num"></span> of <span id="page-count"></span>
-      </span>
-    </div>
-
-    <canvas id="pdf-render"></canvas>
-
-    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
-    <script src="js/main.js"></script>
-    </body>
+    <div class="top-bar">
+    <button class="btn" id="prev-page">
+        <i class="fas fa-arrow-circle-left"></i> Prev Page
+    </button>
+    <button class="btn" id="next-page">
+        Next Page <i class="fas fa-arrow-circle-right"></i>
+    </button>
+    <span class="page-info">
+    page <span id="page-num"></span> of <span id="page-count"></span>
+    </span>
+        
     <div id="choose-file">
     <input type="file" id="real-file" hidden="hidden" />
-    <button type="button" id="custom-button">Choose File</button>
+    <button type="button" id="custom-button">Choose File
+    <i class="fa fa-file" aria-hidden="true"></i>    
+    </button>
     <span id="custom-text">no noots yet.</span>
         
     <script type="text/javascript">
@@ -53,4 +49,13 @@
         });
     </script>
     </div>
+    </div>
+
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+<div class="center">
+<canvas id="pdf-render" height="1000"></canvas>
+</div>
+
 </html>

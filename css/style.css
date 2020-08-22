@@ -4,56 +4,66 @@
 }
 
 #choose-file {
-    margin-top: 20vh;
-    margin-left: 40vw;
-    margin-right: 40vw;
+    margin: auto;
+    float: right
 }
 
 #custom-button {
-    margin: 10px;
-    padding: 10px;
     color: white;
+    padding: 10px;  
     background-color: lightgrey;
-    border: 1px solid grey;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: sans-serif;
 }
         
 #custom-button:hover {
-    background-color: green;
+    background-color: mediumseagreen;
 }
 
 #custom-text {
     margin-left:  10px;
     font-family: sans-serif;
-    color: #aaa;
+    color: grey;
 }
 
 .top-bar {
-  background: #333;
-  color: #fff;
-  padding: 1rem;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
 }
 
 .btn {
-  background: coral;
-  color: #fff;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 0.7rem 2rem;
+    background: MediumSeaGreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+    font-family: sans-serif;
 }
 
 .btn:hover {
-  opacity: 0.9;
+    opacity: 0.9;
 }
 
 .page-info {
-  margin-left: 1rem;
+    margin-left: 1rem;
+    font-family: sans-serif;
+    color: grey;
 }
 
 .error {
-  background: orangered;
-  color: #fff;
-  padding: 1rem;
+    background: orangered;
+    color: #fff;
+    padding: 1rem;
+}
+
+.center {
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -5,11 +5,7 @@ const customTxtjs = document.getElementById("custom-text");
 
 if (realFileBtnjs.value) {
     url = realFileBtnjs.value;
-    prompt(url);
-}
-
-
-let pdfDoc = null,
+    let pdfDoc = realFileBtnjs.value,
   pageNum = 1,
   pageIsRendering = false,
   pageNumIsPending = null;
@@ -94,6 +90,8 @@ pdfjsLib
     // Remove top bar
     document.querySelector('.top-bar').style.display = 'none';
   });
+
+}
 
 // Button Events
 document.querySelector('#prev-page').addEventListener('click', showPrevPage);
