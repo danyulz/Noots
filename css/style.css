@@ -3,6 +3,32 @@
   padding: 0;
 }
 
+#choose-file {
+    margin-top: 20vh;
+    margin-left: 40vw;
+    margin-right: 40vw;
+}
+
+#custom-button {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+        
+#custom-button:hover {
+    background-color: green;
+}
+
+#custom-text {
+    margin-left:  10px;
+    font-family: sans-serif;
+    color: #aaa;
+}
+
 .top-bar {
   background: #333;
   color: #fff;

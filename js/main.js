@@ -1,4 +1,13 @@
-const url = "https://github.com/danyulz/Noots/master/docs/test.pdf";
+var url;
+const realFileBtnjs = document.getElementById("real-file");
+const customBtnjs = document.getElementById("custom-button");
+const customTxtjs = document.getElementById("custom-text");
+
+if (realFileBtnjs.value) {
+    url = realFileBtnjs.value;
+    prompt(url);
+}
+
 
 let pdfDoc = null,
   pageNum = 1,
