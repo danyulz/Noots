@@ -1,4 +1,4 @@
-const url = "https://github.com/danyulz/Noots/blob/master/docs/test.pdf";
+const url = "https://github.com/danyulz/Noots/master/docs/test.pdf";
 
 let pdfDoc = null,
   pageNum = 1,
